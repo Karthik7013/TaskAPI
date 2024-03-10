@@ -8,7 +8,7 @@ const salt_rounds = 10;
 
 const MONGO = process.env.MONGO_URI;
 const PORT = process.env.PORT || 8000;
-const SECRE_KEY = process.env.SECRET_KEY
+const SECRET_KEY = process.env.SECRET_KEY
 
 let blackListTokens = []
 mongoose.connect(MONGO).then(() => {
